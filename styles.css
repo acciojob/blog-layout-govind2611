@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: rgb(226,225,224);
+}
+
+.main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.blog-column {
+	width: 150px;
+	height: 250px;
+	background-color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.blog-column>h2 {
+	margin-top: 30px;
+}
+
+.blog-column>ul {
+	margin-top: 15px;
+	list-style-type: none;
+}
